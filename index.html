@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> 
+    <title>Minkyu's Personal Website</title>
+</head>
+<body>
+    <nav>
+        <div class="profile">
+            <img src="img/profile_photo.png" alt="profile_photo">
+        </div>
+        <ul>
+            <li>about</li>
+            <li>contact</li>
+            <li><a href="https://github.com/Junminkyu?tab=repositories">github</a></li>
+        </ul>
+    </nav>
+
+    <div id="intro">
+        <div class="name">
+            Hello, I am Minkyu,
+        </div>
+        <div class="container">
+            I am a <span class="typer"></span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed=new Typed(".typer", {
+            strings: ["Coder","Tutor", "Developer", "Creator", "Designer"],
+            typeSpeed:90,
+            backSpeed:90,
+            loop: true
+        })
+    </script>
+    <script src="js/type.js"></script>
+</body>
+</html>
