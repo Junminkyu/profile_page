@@ -80,7 +80,7 @@ ul li img{
 }
 
 .intro_page{
-    height: 100vh;
+    height: 70vh;
 }
 
 #intro{
@@ -132,4 +132,5 @@ span{
     margin-top: 15%;
     font-size: 25px;
     color:#FFCB05;
+    opacity:1;
 }
