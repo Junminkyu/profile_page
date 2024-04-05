@@ -153,7 +153,7 @@ span{
 
 .js-scroll {
     opacity: 0;
-    transition: opacity 3000ms;
+    transition: opacity 2000ms;
   }
   
 .js-scroll.scrolled {
