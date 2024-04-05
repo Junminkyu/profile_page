@@ -34,6 +34,11 @@ body{
     height: 400px;                /* Parallax effect */
 }
 
+@media only screen and (max-device-width: 1366px) {
+    body {
+      background-attachment: scroll;
+    }
+  }
 
 @keyframes color {
     0%{
