@@ -10,7 +10,6 @@ nav img{
 
 nav{
     width:100%;
-    padding: 10px;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +17,8 @@ nav{
 
 ul{
     margin-top:2%;
-    padding-right: 5%;
+    margin-right: 5%;
+    margin-left: 20px;
     color: black;
     text-align: center;
     text-decoration: none;
