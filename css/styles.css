@@ -37,7 +37,7 @@ body{
 @media only screen and (max-device-width: 1366px) {
     body {
       background-attachment: scroll;
-      background-size: 150
+      /* background-size: 200 200px; */
     }
   }
 
@@ -103,7 +103,7 @@ ul li img{
 }
 
 .intro_page{
-    height: 90vh;
+    height: 100vh;
 }
 
 #intro{
