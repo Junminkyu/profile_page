@@ -123,9 +123,10 @@ span{
 }
 
 .education{
+    top:95vh;
     box-sizing: border-box;
     position: absolute;
-    overflow:hidden;
+    /* overflow:hidden; */
     width: 100%;
     height: 100%;
     background-color: #00274C;
