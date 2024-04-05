@@ -2,30 +2,43 @@
     font-family: 'Poppins';
 }
 
-nav img{
+.profile img{
     border-radius: 50%;
     height: 70px;
     width:70px;
 }
 
 nav{
-    width:100%;
+    margin:auto;
+    width:95%;
     display:flex;
     align-items: center;
     justify-content: space-between;
 }
 
+
+
+
 ul{
+    display: flex;
     margin-top:2%;
     margin-right: 5%;
-    margin-left: 20px;
     color: black;
     text-align: center;
     text-decoration: none;
+    list-style-type: none;
 }
 
-ul li{
-    display:inline-block;
+li{
+    height:40px;
+    width:50px;
+}
+
+ul li img{
+    height:27px;
+    width:30px;
+    display:inline;
+    margin-left:15px;
     padding: 14px 16px;
 }
 
