@@ -11,7 +11,7 @@ html,body{
 
 body{
     box-sizing: border-box;
-    height:100vh;
+    height:95vh;
     background-image: url("../img/chris-galbraith-j_3qB1KygQ4-unsplash\ copy.jpg");
     /* width:100%; */
     /* background-color: #0093E9;
@@ -93,9 +93,9 @@ ul li img{
     padding: 14px 16px;
 }
 
-.intro_page{
-    height: 95vh;
-}
+/* .intro_page{
+    margin-bottom: 100vh;
+} */
 
 #intro{
     text-align: center;
@@ -204,5 +204,8 @@ span{
        background-size: cover;       /* Parallax effect */
        /* color: white; */
        height: 400px;             
+    }
+    .education{
+        top:100vh;
     }
 }
