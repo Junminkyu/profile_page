@@ -16,8 +16,7 @@ body{
     /* width:100%; */
     /* background-color: #0093E9;
 background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
-
-    
+    background-size: cover;
     
 
     /* background: linear-gradient(45deg,#d20001,#7462ff,#f48e21,#23d5ab);
@@ -25,14 +24,6 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
     animation: color 18s ease-in-out infinite; */
 }
 
-body{
-     background-attachment: fixed; /*Parallax effect      */
-    background-position: center;  /* Parallax effect */
-     background-repeat: no-repeat; /*Parallax effect */
-    background-size: cover;       /* Parallax effect */
-    /* color: white; */
-    height: 400px;                /* Parallax effect */
-}
 
 @media only screen and (max-device-width: 1366px) {
     body {
@@ -170,11 +161,11 @@ span{
 .michigan{
     width:15vh;
     height:10.7vh;
-    margin-bottom:2%;
+    margin-bottom:1%;
 }
 
-.education{
-    font-size:20px;
+.college_name{
+    font-size:22px;
 }
 
 .title{
@@ -182,6 +173,10 @@ span{
 }
 
 .degree_info{
+    font-size:15px;
+}
+
+.gpa_info{
     font-size:15px;
 }
 @keyframes fade-in-bottom {
@@ -200,5 +195,13 @@ span{
 @media screen and (min-width:800px){
     .intro_page{
         height: 100vh;
+    }
+    body{
+        background-attachment: fixed; /*Parallax effect      */
+       background-position: center;  /* Parallax effect */
+        background-repeat: no-repeat; /*Parallax effect */
+       background-size: cover;       /* Parallax effect */
+       /* color: white; */
+       height: 400px;             
     }
 }
