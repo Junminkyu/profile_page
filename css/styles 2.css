@@ -1,3 +1,4 @@
+/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
@@ -21,13 +22,24 @@
 }
 
 /*=============== BASE ===============*/
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--white-color);
+}
 
 
 .container img {
   display: block;
   max-width: 100%;
-  height: 202.35px;
-  width:180px;
+  height: auto;
 }
 
 /*=============== CARD ===============*/
@@ -35,13 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  color: var(--white-color);
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  height: 100vh;
 }
 
 .card__container {
@@ -150,26 +156,17 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-/* @media screen and (max-width: 768px) { */
+@media screen and (max-width: 768px) {
   .card__data {
     padding: 1rem;
   }
   .container{
-	position:absolute;
-	width:100%;
-
+    width:70vw;
   }
-  .skill{
-	display: flex;
-	justify-content: center;
-  }
-  .card__content{
-	position:relative;
-  }
-/* } */
+}
 
 /* For medium devices */
-@media screen and (min-width:600px){
+@media screen and (min-width: 768px) {
   .card__content {
     margin-inline: 3rem;
   }
@@ -178,8 +175,8 @@
   .swiper-button-prev {
     display: block;
   }
-
 }
+
 /* For large devices */
 @media screen and (min-width: 1120px) {
   .card__container {
