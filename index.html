@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="css/skill.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
     <title>Minkyu's Personal Website</title>
 </head>
 <body>
@@ -27,7 +29,7 @@
             </div>
             <br>
             <br>
-            <div class="container">
+            <div class="contain">
                 I am a <span class="typer"></span>
             </div>
         </div>
@@ -90,16 +92,133 @@
     </div>
     </div>
     </div>
-
+    
     <div class="skill">
-        <div>I have those skills!</div>
-        <div class="language">
-            <div class="language_grid">C++</p>
-            <div class="language_grid">Java</p>
-            <div class="language_grid">Python</p>
-            <div class="language_grid">Ocaml</p>
-        </div>
+        <span class="skills"></span>
+        <section class="container">
+            <div class="card__container swiper">
+               <div class="card__content">
+                  <div class="swiper-wrapper">
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/ISO_C++_Logo.png" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">C++</h3>
+                        </div>
+                     </article>
+         
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/Java_programming_language_logo.svg" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">Java</h3>
+                        </div>
+                     </article>
+         
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/python-logo-only.png" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">Python</h3>
+                        </div>
+                     </article>
+   
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/JavaScript-logo.png" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">JavaScript</h3>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/CSS3_logo_and_wordmark.svg.png" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+         
+                        <div class="card__data">
+                           <h3 class="card__name">CSS</h3>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/HTML5_logo_and_wordmark.svg.png" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+                        
+                        <div class="card__data">
+                           <h3 class="card__name">HTML</h3>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/OCaml_Sticker.svg" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+                        
+                        <div class="card__data">
+                           <h3 class="card__name">Ocaml</h3>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="img/React-icon.svg.png" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+                        
+                        <div class="card__data">
+                           <h3 class="card__name">React / React Native</h3>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+                           <img src="//static.invertase.io/assets/React-Native-Firebase.svg" alt="image" class="card__img">
+                           <div class="card__shadow"></div>
+                        </div>
+                        
+                        <div class="card__data">
+                           <h3 class="card__name">React Native Firebase</h3>
+                        </div>
+                     </article>
+
+
+                  </div>
+               </div>
+   
+               <!-- Navigation buttons -->
+               <div class="swiper-button-next">
+                  <i class="ri-arrow-right-s-line"></i>
+               </div>
+               
+               <div class="swiper-button-prev">
+                  <i class="ri-arrow-left-s-line"></i>
+               </div>
+   
+               <!-- Pagination -->
+               <div class="swiper-pagination"></div>
+            </div>
+         </section>
     </div>
+    </div>
+
+    
 
 
 
@@ -111,8 +230,15 @@
             backSpeed:90,
             loop: true
         })
+
+        var typed=new Typed(".skills", {
+            strings: ["I have those skills!"],
+            typeSpeed:90,
+            backSpeed:90,
+        })
     </script>
     <script src="js/type.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

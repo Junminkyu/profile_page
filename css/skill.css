@@ -1,21 +1,96 @@
 .skill{
-    background-image: url('../img/melanie-magdalena-VdFkSO3uePI-unsplash.jpg');
+    background-image: url('../img/diego-ph-5LOhydOtTKU-unsplash.jpg');
     background-size:cover;
     text-align:center;
     box-sizing:border-box;
     height: 100vh;
     opacity:0.9;
-    padding:0;
+    padding:10vh;
     margin:0;
+    font-size:30px;
+}
+
+span.skills{
+    color:#ff0040f1;
+    font-weight:1000;
+}
+
+
+@keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+.js-scroll {
+    opacity: 0;
+    transition: opacity 1500ms;
+  }
+  
+.js-scroll.scrolled {
+    opacity: 1;
+}
+
+@keyframes fade {
+    from{
+        background-color: transparent;
+    }
+    to{
+        background-color: #00274c;
+    }
+}
+
+.mySlides{
+    width: 20vw;
+    height:25vh;
+    margin:auto;
+}
+
+.language{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
 }
 
 @media screen and (min-width:800px){
     .skill{
-        height: 100vh;
         background-attachment: fixed; /*Parallax effect      */
         background-position: center;  /* Parallax effect */
         background-repeat: no-repeat; /*Parallax effect */
         background-size: cover;       /* Parallax effect */
-       /* color: white; */            
+       /* color: white; */ 
+       height: 100vh;
+       font-size:50px;           
+    }
+
+    .language{
+        display: grid;
+        grid-template-columns: 15vw 15vw 15vw 15vw;
+        grid-template-rows: 20vh 20vh 20vh 20vh;
+        justify-content: space-around;
+    }
+
+    .language_grid{
+        background-color: #989ea3;
+    }
+
+    .language_grid img{
+        padding:10%;
+        position:relative;
+        height:40%;
+        width:40%;
+        opacity:1;
+    }
+
+    .language_grid *{
+        height:100%;
+        width:100%;
     }
 }
