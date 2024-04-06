@@ -60,7 +60,8 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
 
 nav{
     margin:auto;
-    margin-top:20px;
+    margin-top:0;
+    padding:10px;
     width:90%;
     height: 10vh;
     display:flex;
