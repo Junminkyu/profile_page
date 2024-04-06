@@ -217,12 +217,19 @@ span{
     padding: 20px;
     opacity:1;
 }
-.relevant ul{
+
+.course_exception{
+    font-size:8px;
+}
+.courses{
+    font-size:14px;
+}
+.courses ul{
     display:inline-block;
     text-align: left;
 }
 
-.relevant ul li{
+.courses ul li{
     margin-top:5px;
     font-size:12px;
 }
