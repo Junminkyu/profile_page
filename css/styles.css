@@ -9,20 +9,21 @@ html,body{
     padding: 0;
 }
 
-body{
+/* body{
     box-sizing: border-box;
     height:100vh;
     background-image: url("../img/chris-galbraith-j_3qB1KygQ4-unsplash\ copy.jpg");
     /* width:100%; */
     /* background-color: #0093E9;
 background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
-    background-size: cover;
+    /* background-size: cover; */
     
 
     /* background: linear-gradient(45deg,#d20001,#7462ff,#f48e21,#23d5ab);
     background-size: 300% 300%;
-    animation: color 18s ease-in-out infinite; */
-}
+    animation: color 18s ease-in-out infinite; 
+} */
+
 
 
 @media only screen and (max-device-width: 1366px) {
@@ -94,7 +95,21 @@ ul li img{
 }
 
 .intro_page{
+    padding:0;
+    margin: 0;
     height: 95vh;
+    box-sizing: border-box;
+    height:100vh;
+    background-image: url("../img/chris-galbraith-j_3qB1KygQ4-unsplash\ copy.jpg");
+    /* width:100%; */
+    /* background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    background-size: cover;
+    
+
+    /* background: linear-gradient(45deg,#d20001,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 18s ease-in-out infinite; */
 }
 
 #intro{
@@ -216,6 +231,7 @@ span{
     border-radius: 20%;
     padding: 20px;
     opacity:1;
+    background-color:#133252;
 }
 
 .course_exception{
@@ -232,4 +248,8 @@ span{
 .courses ul li{
     margin-top:5px;
     font-size:14px;
+}
+
+.course_info.second{
+    margin-bottom: 30px;
 }
