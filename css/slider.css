@@ -150,7 +150,7 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-/* @media screen and (max-width: 768px) { */
+@media screen and (max-width: 600px) {
   .card__data {
     padding: 1rem;
   }
@@ -166,7 +166,7 @@
   .card__content{
 	position:relative;
   }
-/* } */
+} 
 
 /* For medium devices */
 @media screen and (min-width:600px){
