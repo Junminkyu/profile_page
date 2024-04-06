@@ -1,6 +1,21 @@
 .skill{
-    background-image: url('../img/kazuend-2KXEb_8G5vo-unsplash.jpg');
+    background-image: url('../img/melanie-magdalena-VdFkSO3uePI-unsplash.jpg');
     background-size:cover;
     text-align:center;
+    box-sizing:border-box;
     height: 100vh;
+    opacity:0.9;
+    padding:0;
+    margin:0;
+}
+
+@media screen and (min-width:800px){
+    .skill{
+        height: 100vh;
+        background-attachment: fixed; /*Parallax effect      */
+        background-position: center;  /* Parallax effect */
+        background-repeat: no-repeat; /*Parallax effect */
+        background-size: cover;       /* Parallax effect */
+       /* color: white; */            
+    }
 }
