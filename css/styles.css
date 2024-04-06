@@ -70,8 +70,6 @@ nav{
 }
 
 
-
-
 .intro_page ul{
     display: flex;
     margin-top:2%;
@@ -98,19 +96,10 @@ ul li img{
 .intro_page{
     padding:0;
     margin: 0;
-    height: 95vh;
     box-sizing: border-box;
     height:100vh;
     background-image: url("../img/chris-galbraith-j_3qB1KygQ4-unsplash\ copy.jpg");
-    /* width:100%; */
-    /* background-color: #0093E9;
-background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
     background-size: cover;
-    
-
-    /* background: linear-gradient(45deg,#d20001,#7462ff,#f48e21,#23d5ab);
-    background-size: 300% 300%;
-    animation: color 18s ease-in-out infinite; */
 }
 
 #intro{
@@ -138,15 +127,18 @@ span{
     font-weight: 1000;
 }
 
+
 .education{
-    top:90vh;
+    position:static;
+    margin-top:0;
+    padding-top:0;
     box-sizing: border-box;
-    position: absolute;
     /* overflow:hidden; */
     width: 100%;
     background-color: #00274C;
     text-align: center;
     animation: fade linear both;
+    padding-bottom:8vh;
 }
 
 @keyframes fade {
@@ -159,7 +151,7 @@ span{
 }
 
 .title{
-    margin-top: 15%;
+    padding-top: 25px;
     font-size: 25px;
     color:#FFCB05;
     opacity:1;
@@ -167,7 +159,7 @@ span{
 
 .js-scroll {
     opacity: 0;
-    transition: opacity 2000ms;
+    transition: opacity 1500ms;
   }
   
 .js-scroll.scrolled {
@@ -211,18 +203,33 @@ span{
 @media screen and (min-width:800px){
     .intro_page{
         height: 100vh;
-    }
-    body{
         background-attachment: fixed; /*Parallax effect      */
        background-position: center;  /* Parallax effect */
         background-repeat: no-repeat; /*Parallax effect */
        background-size: cover;       /* Parallax effect */
        /* color: white; */
-       height: 400px;             
+       height: 100vh;             
     }
     .education{
+        padding-top:10vh;
         top:100vh;
+        height:100vh;
+        padding-bottom: 40px;
     }
+
+    .education_grid{
+        display: grid;
+        /* align-items: center; */
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .college{
+        position:relative;
+        top:16vh;
+        padding-bottom:40%;
+    }
+
 }
 .course_info{
     margin:auto;
@@ -235,6 +242,9 @@ span{
     background-color:#133252;
 }
 
+.course{
+    position:relative;
+}
 .course_exception{
     font-size:8px;
 }

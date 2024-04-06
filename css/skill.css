@@ -1,0 +1,12 @@
+.skill{
+    background-image: url('../img/kazuend-2KXEb_8G5vo-unsplash.jpg');
+    background-size:cover;
+    text-align:center;
+    height: 100vh;
+    background-attachment: fixed; /*Parallax effect      */
+    background-position: center;  /* Parallax effect */
+    background-repeat: no-repeat; /*Parallax effect */
+    background-size: cover;       /* Parallax effect */
+       /* color: white; */
+    height: 100vh;
+}
