@@ -155,16 +155,16 @@
     padding: 1rem;
   }
   .container{
-	position:absolute;
-	width:100%;
+	  position:absolute;
+	  width:100%;
 
   }
   .skill{
-	display: flex;
-	justify-content: center;
+	  display: flex;
+	  justify-content: center;
   }
   .card__content{
-	position:relative;
+	  position:relative;
   }
 } 
 
@@ -174,14 +174,16 @@
     margin-inline: 3rem;
   }
 
+
   .swiper-button-next,
   .swiper-button-prev {
+    position:absolute;
     display: block;
   }
 
 }
 /* For large devices */
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 600px) {
   .card__container {
     max-width: 1120px;
   }

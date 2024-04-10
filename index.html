@@ -206,11 +206,11 @@
    
                <!-- Navigation buttons -->
                <div class="swiper-button-next">
-                  <i class="ri-arrow-right-s-line"></i>
+                  <i class="ri-arrow-right-s-line"><img src="img/right-arrow.png" style="width:70px; height:70px;"></i>
                </div>
                
                <div class="swiper-button-prev">
-                  <i class="ri-arrow-left-s-line"></i>
+                  <i class="ri-arrow-left-s-line"><img src="img/left-arrow.png" style="width:70px; height:70px;"></i>
                </div>
    
                <!-- Pagination -->
@@ -218,14 +218,58 @@
             </div>
          </section>
     </div>
-    </div>
-    <div class="projects">
-
-    </div>
-
-    
-
-
+   <div class="projects">
+      <span class="project"></span>
+      <div class="project_grid">
+         <div class="flip-card">
+            <div class="flip-card-inner">
+               <div class="flip-card-front">
+                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+               </div>
+               <div class="flip-card-back">
+                  <h1>John Doe</h1> 
+                  <p>Architect & Engineer</p> 
+                  <p>We love that guy</p>
+               </div>
+            </div>
+         </div>
+         <div class="flip-card">
+            <div class="flip-card-inner">
+               <div class="flip-card-front">
+                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+               </div>
+               <div class="flip-card-back">
+                  <h1>John Doe</h1> 
+                  <p>Architect & Engineer</p> 
+                  <p>We love that guy</p>
+               </div>
+            </div>
+         </div>
+         <div class="flip-card">
+            <div class="flip-card-inner">
+               <div class="flip-card-front">
+                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+               </div>
+               <div class="flip-card-back">
+                  <h1>John Doe</h1> 
+                  <p>Architect & Engineer</p> 
+                  <p>We love that guy</p>
+               </div>
+            </div>
+         </div>
+         <div class="flip-card">
+            <div class="flip-card-inner">
+               <div class="flip-card-front">
+                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+               </div>
+               <div class="flip-card-back">
+                  <h1>John Doe</h1> 
+                  <p>Architect & Engineer</p> 
+                  <p>We love that guy</p>
+               </div>
+            </div>
+         </div>
+   </div>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
@@ -238,6 +282,12 @@
 
         var typed=new Typed(".skills", {
             strings: ["I have those skills!"],
+            typeSpeed:90,
+            backSpeed:90,
+        })
+
+        var typed=new Typed(".project", {
+            strings: ["Those are my projects!"],
             typeSpeed:90,
             backSpeed:90,
         })
