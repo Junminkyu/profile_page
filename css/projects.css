@@ -1,5 +1,5 @@
 .projects{
-    background-color: #7a0019;
+    background-image: linear-gradient(to right top, #c589c8, #ea7d9c, #ec8366, #ca993c, #8cae3e);
     text-align: center;
     font-size:25px;
     margin:0;
@@ -9,7 +9,7 @@
 .project{
     padding-top:50px;
     display: inline-block;
-    color:#FFCC33;
+    color:white;
     font-weight:2000;
     font-size:x-large;
     padding-bottom:50px;
@@ -29,7 +29,6 @@
     text-align: center;
     transition: transform 1.0s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
   
 /* .flip-card:hover .flip-card-inner{
@@ -135,6 +134,12 @@
 @media screen and (min-width:1280px){
     .project,.projects{
         font-size:50px;
+    }
+    .projects{
+        height:850px;
+    }
+    .project{
+        margin-bottom: 100px;
     }
     .project_grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
