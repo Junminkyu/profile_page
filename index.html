@@ -41,6 +41,7 @@
         <div class="education_grid">
         <section class="scroll-container">
             <div class="scroll-element js-scroll fade-in-bottom">
+               <div class="college">
                 <div class="title"> Education</div>
                 <br>
                 <img class="michigan" src="img/block_m-hex.png" alt="umich logo">
@@ -48,6 +49,7 @@
                 <div class="degree_info">B.S.E in Computer Science</div>
                 <div class="gpa_info">GPA: [Coming Soon]</div>   
                 </div>
+               </div>
             <div class="scroll-caption">
         </div>
           </section>
@@ -221,55 +223,74 @@
    <div class="projects">
       <span class="project"></span>
       <div class="project_grid">
-         <div class="flip-card">
+         <div class="flip-card" onclick="flip(this)">
             <div class="flip-card-inner">
-               <div class="flip-card-front">
-                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+               <div class="flip-card-front parkswift">
+                  <img src="img/parkswift.png" alt="Avatar" style="width:300px;height:300px;">
+                  <div class="descript">
+                     Park Swift
+                  </div>
                </div>
-               <div class="flip-card-back">
+               <div class="flip-card-back parkswift">
+                  <h4>Park Swift</h4> 
+                  <p>Architect & Engineer</p> 
+                  <p>We love that guy</p>
+               </div>
+            </div>
+         </div>
+         <div class="flip-card" onclick="flip(this)">
+            <div class="flip-card-inner">
+               <div class="flip-card-front courseflowchart">
+                  <img src="img/courseflowchart.png" alt="Avatar" style="width:300px;height:300px; object-fit: cover;">
+                  <div class="descript">
+                     <span class="project_title">Course Flowchart</span>
+                  </div>
+               </div>
+               <div class="flip-card-back courseflowchart">
+                  <h1>Course Flowchart</h1> 
+                  <p>Architect & Engineer</p> 
+                  <p>We love that guy</p>
+               </div>
+            </div>
+         </div>
+         <div class="flip-card" onclick="flip(this)">
+            <div class="flip-card-inner">
+               <div class="flip-card-front profilelol">
+                  <img src="img/profilepage.png" alt="Avatar" style="width:300px;height:300px;">
+                  <div class="descript">
+                     Profile Page
+                  </div>
+               </div>
+               <div class="flip-card-back profilelol">
                   <h1>John Doe</h1> 
                   <p>Architect & Engineer</p> 
                   <p>We love that guy</p>
                </div>
             </div>
          </div>
-         <div class="flip-card">
+         <div class="flip-card" onclick="flip(this)">
             <div class="flip-card-inner">
-               <div class="flip-card-front">
-                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+               <div class="flip-card-front weather">
+                  <img src="img/weather.png" alt="Avatar" style="width:300px;height: 300px;">
+                  <div class="descript">
+                     Weather App
+                  </div>
                </div>
-               <div class="flip-card-back">
+               <div class="flip-card-back weather">
                   <h1>John Doe</h1> 
                   <p>Architect & Engineer</p> 
                   <p>We love that guy</p>
                </div>
             </div>
          </div>
-         <div class="flip-card">
-            <div class="flip-card-inner">
-               <div class="flip-card-front">
-                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-               </div>
-               <div class="flip-card-back">
-                  <h1>John Doe</h1> 
-                  <p>Architect & Engineer</p> 
-                  <p>We love that guy</p>
-               </div>
-            </div>
-         </div>
-         <div class="flip-card">
-            <div class="flip-card-inner">
-               <div class="flip-card-front">
-                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-               </div>
-               <div class="flip-card-back">
-                  <h1>John Doe</h1> 
-                  <p>Architect & Engineer</p> 
-                  <p>We love that guy</p>
-               </div>
-            </div>
-         </div>
+      </div>
    </div>
+
+   </div>
+
+   <footer>
+
+   </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
