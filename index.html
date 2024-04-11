@@ -340,5 +340,19 @@
     <script src="js/type.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      const courseInfoElements = document.querySelectorAll('.course_info');
+      let totalHeight = 0;
+
+      courseInfoElements.forEach(function(courseInfo) {
+          totalHeight += courseInfo.clientHeight;
+      });
+
+      if (totalHeight > window.innerHeight) {
+          document.querySelector('.education').style.height = totalHeight + 'px';
+      }
+         });
+   </script>
 </body>
 </html>
