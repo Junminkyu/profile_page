@@ -76,14 +76,63 @@
     background-color: #606080;
 }
 
+.descript{
+    position:absolute;
+    top:55%;
+    background-color: black;
+    opacity:0.8;
+    width:100%;
+    height:30%;
+    padding-top:9%;
+    margin-bottom: 1.5%;
+    align-items: center;
+    justify-items: center;
+}
 
-/* #187896 */
 .project_grid{
     display:grid;
     grid-template-columns: 1fr;
     justify-items: center;
 }
-@media screen and (min-width:1000px){
+
+
+.projects p, .projects ul{
+    font-size:15px;
+}
+
+.projects ul{
+    display: block;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.projects img{
+    display:absolute;
+    width:10%;
+    height:10%;
+}
+
+@media screen and (min-width:800px){
+    .project_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .flip-card>*{
+        font-size:25px;
+    }
+    .descript{
+        position:absolute;
+        top:55%;
+        background-color: black;
+        opacity:0.8;
+        width:100%;
+        height:30%;
+        padding-top:9%;
+        margin-bottom: 1.5%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+@media screen and (min-width:1280px){
     .project,.projects{
         font-size:50px;
     }
@@ -93,17 +142,16 @@
     .flip-card>*{
         font-size:25px;
     }
-}
-
-.descript{
-    position:absolute;
-    top:60%;
-    background-color: black;
-    opacity:0.8;
-    width:100%;
-    height:30%;
-    padding-top:9%;
-    margin-bottom: 1%;
-    align-items: center;
-    justify-items: center;
+    .descript{
+        position:absolute;
+        top:60%;
+        background-color: black;
+        opacity:0.8;
+        width:100%;
+        height:30%;
+        padding-top:9%;
+        margin-bottom: 1.5%;
+        align-items: center;
+        justify-items: center;
+    }
 }
