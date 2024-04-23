@@ -10,6 +10,19 @@ html,body{
     line-height:normal;
 }
 
+.skip{
+    position: absolute;
+    left: -5000px;
+    color:black;
+}
+
+.skip:focus{
+    position:static;
+    display:block;  
+    text-align: center;
+    border:#0a807c solid 4px;
+    font-size:20px;
+}
 
 @media only screen and (max-device-width: 1366px) {
     body {
@@ -225,6 +238,7 @@ span.typer{
 .course_info{
     margin:auto;
     margin-top:20px;
+    margin-bottom:40px;
     width:70%;
     border: 3px solid #FFC92D;
     border-radius: 20%;
